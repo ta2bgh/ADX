@@ -84,7 +84,7 @@ int Bdly = 250;
 #define FT8 12 //FT8 LED
 
 #define RX  8 // RX SWITCH
-#define SI5351_REF 		25000000UL  //change this to the frequency of the crystal on your si5351’s PCB, usually 25 or 27 MHz
+#define SI5351_REF 		27005000UL  //change this to the frequency of the crystal on your si5351’s PCB, usually 25 or 27 MHz
 
 //**********************************[ BAND SELECT ]************************************************
 // ADX can support up to 4 bands on board. Those 4 bands needs to be assigned to Band1 ... Band4 from supported 6 bands.
@@ -96,10 +96,10 @@ int Bdly = 250;
 // Assign your prefered bands to B1,B2,B3 and B4
 // Supported Bands are: 80m, 40m, 30m, 20m,17m, 15m
 
-int Band1 = 40; // Band 1 // These are my default bands. Feel free to swap with yours
-int Band2 = 30; // Band 2
-int Band3 = 20; // Band 3
-int Band4 = 17; // Band 4
+int Band1 = 20; // Band 1 // These are my default bands. Feel free to swap with yours
+int Band2 = 40; // Band 2
+int Band3 = 17; // Band 3
+int Band4 = 30; // Band 4
 
 Si5351 si5351;
 
